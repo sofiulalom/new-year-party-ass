@@ -1,0 +1,42 @@
+body{
+     font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+/* its  header style start */
+.header-info{
+    width: 1000px;
+}
+
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.541), rgba(110, 74, 74, 0.527)),
+    url('../resources/Banner\ Image.png')
+    ;
+    border-radius: 20px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    text-align: center;
+}
+.banner-info{
+    color: white;
+    padding: 120px 200px;
+    max-width: 400px;
+    margin-left: 100px;
+    text-transform: capitalize;
+    
+   
+}
+.litle-title{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+  
+}
+.banner-title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+/* its header style end */
