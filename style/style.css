@@ -89,5 +89,50 @@ img{
 
 }
 /*
- new year section style end
-                            */
+ new year section style end */
+
+ /* wish section style start */
+
+ .wish-banner{
+     background-image:linear-gradient(rgba(27, 26, 26, 0.822), rgba(0, 0, 0, 0.363)), url('../resources/Vectorrr.png');
+     background-position: center;
+     border-radius: 20px;
+     background-repeat: no-repeat;
+     background-size: 900px;
+     text-align: left;
+
+ }
+ .wish-info{
+    color: white;
+    padding: 100px 200px;
+    max-width: 400px;
+    color: white;
+    text-transform: capitalize;
+    margin-right: 20px;
+   
+ }
+ .wish-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+ }
+ .wish-description{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+ }
+ .btn-primary{
+    border-radius: 10px;
+    padding: 10px 15px;
+    outline: none;
+    background-color: wheat;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+ }
+ .btn-primary:hover{
+    background-color: white;
+ }
+ /* wish section style end */
+                    
