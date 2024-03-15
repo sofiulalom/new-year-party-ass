@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
      font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -83,10 +87,9 @@ main section{
 .image-info{
     width: 100%;
 }
-img{
+.image-info #new-year-img{
     width: 500px;
-    margin: 0 240px;
-
+    margin:0 30% ;
 }
 /*
  new year section style end */
@@ -135,4 +138,49 @@ img{
     background-color: white;
  }
  /* wish section style end */
-                    
+
+ /* portfolio section style start */
+
+ .gift-information{
+    width: 400px;
+     margin: 0 50px;
+     margin-bottom: 40px;
+    
+ }
+ .gift-sm-title{
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 600;
+   color: rgb(224, 17, 17);
+   margin-bottom: 0px;
+ }
+ .gift-title{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 800;
+     margin: 5px 0px;
+ }
+
+ .gift-description{
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+ }
+ .Gifts-image-items img{
+    width: 290px;
+   
+ }
+ .Gifts-image-items{
+         display: grid;
+         grid-template-columns: auto auto auto;
+         justify-content: start;
+         gap: 10px;
+         margin: 0 50px;
+         cursor: pointer;
+ }
+.Gifts-image-items img:hover{
+    box-shadow: 2px 3px 5px 2px  tomato;
+    border-radius: 5px;
+    width: 285px;
+}
+/* portfolio section style end */
