@@ -256,4 +256,43 @@ main section{
     background-color: red;
     transition: 0.3s;
 }
+/* subscribe section style end */
+
+/* footer sectin style strat */
+.footer-container{
+    background-color: black;
+}
+.footer-info{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+.footer-title{
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 0px;
+}
+.footer-sm-text{
+ font-size: 10px;
+ font-weight: 400;
+ margin-top: 0;
+}
+.social-icon {
+  margin: 10px 40%;
+  display: flex;
+  gap: 5px;
+ 
+}
+.social-img {
+    width: 50px;
+}
+.unsub-info{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 30px;
+}
+
            
