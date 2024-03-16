@@ -103,15 +103,24 @@ main section{
      text-align: left;
 
  }
+.wish-devag{
+    display: flex;
+    justify-content: space-evenly;
+}
+#wish-img{
+    width: 200px;
+    padding: 50px 100px;
+}
  .wish-info{
     color: white;
-    padding: 100px 200px;
-    max-width: 400px;
+    padding: 100px 100px;
+    max-width: 300px;
     color: white;
     text-transform: capitalize;
-    margin-right: 20px;
+    
    
  }
+ 
  .wish-title{
     font-size: 30px;
     font-weight: 800;
@@ -122,6 +131,7 @@ main section{
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 5px;
+    width: 400px;
  }
  .btn-primary{
     border-radius: 10px;
@@ -260,6 +270,7 @@ main section{
 .footer-container{
     background-color: black;
     padding: 50px;
+    width: 940px;
 }
 .footer-info{
     color: white;
