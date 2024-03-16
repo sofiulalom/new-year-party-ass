@@ -261,6 +261,7 @@ main section{
 /* footer sectin style strat */
 .footer-container{
     background-color: black;
+    padding: 50px;
 }
 .footer-info{
     color: white;
@@ -269,30 +270,63 @@ main section{
     padding: 25px 30px;
 }
 .footer-title{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     display: block;
     margin-bottom: 0px;
 }
 .footer-sm-text{
- font-size: 10px;
+ font-size: 12px;
  font-weight: 400;
  margin-top: 0;
 }
-.social-icon {
-  margin: 10px 40%;
-  display: flex;
-  gap: 5px;
+.contact-info{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+}
+#call-img{
+    width: 12px;
  
 }
+#web-img{
+    width: 12px;
+}
+.contact-web-title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.social-icon {
+  margin: 20px 35%;
+  display: flex;
+  gap: 8px;
+  
+ 
+}
+.hr-info{
+    background-color: red;
+}
 .social-img {
-    width: 50px;
+    width: 40px;
 }
 .unsub-info{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 25px 30px;
+
+}
+.recived-title{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.unsubs-title{
+     font-size: 12px;
+     font-weight: 400;
+     text-transform: capitalize;
+
 }
 
            
